@@ -2,4 +2,3 @@
 =============================
 ## Ceci est mon repertoire personnel
 
-Matz Jérôme
