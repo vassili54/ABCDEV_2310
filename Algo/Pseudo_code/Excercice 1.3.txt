@@ -1,0 +1,15 @@
+Variables
+    rayon
+    angle
+    aireSecteurCirculaire
+
+Debut du programme
+    Ecrire "Veuillez saisir le rayon : "
+    Lire rayon
+
+    Ecrire "Veuillez saisir l'angle : "
+    Lire angle
+
+    aireSecteurCirculaire <-- (π*rayon^2*angle)/360
+
+    Ecrire "L'aire du secteur circulaire est : ", aireSecteurCirculaire
