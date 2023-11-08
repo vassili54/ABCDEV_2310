@@ -1,0 +1,26 @@
+Variables
+    rayon, aire, volume: Réel
+    
+Debut du programme
+   // Saisie du rayon
+   Ecrire "Veuillez saisir le rayon de la sphère : "
+   Lire rayon
+
+   // Calcul de l'aire
+   aire <- 4 * π * rayon^2
+
+   // Affichage de l'aire
+   Ecrire "L'aire de la sphère est : ", aire
+   
+   // Calcul de Volume
+   volume <- 4/3 * π * rayon^3
+
+   // Affichage de volume
+   Ecrire "volume de la sphère est : ", volume
+
+
+
+   // Attente de la saisie pour éviter la fermeture immédiate de la console
+   Ecrire "Appuyez sur une touche pour quitter."
+   Lire
+Fin
