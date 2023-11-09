@@ -1,0 +1,15 @@
+Variable
+    a est un entier
+    b est un entier
+Debut du programme
+    Ecrire "Saisir le nombre a"
+    Lire a
+    Ecrire "Saisir le nombre b"
+    Lire b
+    Ecrire "Valeur de a:", a
+    Ecrire "Valeur de b:", b
+    // Inversion des valeurs
+    Ecrire "Après inversion :"
+    Ecrire "Valeur de a:", b
+    Ecrire "Valeur de b:", a
+FIN Programme
