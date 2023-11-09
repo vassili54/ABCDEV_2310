@@ -1,15 +1,13 @@
-Variables
+VARIABLES
     nombre1 est un entier
     nombre2 est un entier
-    Resultat1
-    Resultat2
-Debut du programme
+    moyenne est un reel
+DEBUT DU PROGRAMME
     Ecrire "Saisir le 1er nombre"
     Lire nombre1
     Ecrire "Saisir le 2eme nombre"
     lire nombre2
-    resultat1 = nombre1 + nombre2
-    Resultat2 = resultat1 / 2
-    Ecrire "Le resultat est ",Resultat2
+    moyenne <-- (nombre1 + nombre2)/2d
+    Ecrire "Le moyenne est :",moyenne
     Lire Resultat2
 Fin programme    
