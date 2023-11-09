@@ -1,0 +1,18 @@
+Variable
+    somme est un entier
+    interet est un reel
+    nombre est un entier
+    interetSimple est reel
+    interetComposer est reel
+Debut du programme
+    Ecrire "Saisir la somme"
+    Lire somme
+    Ecrire "Saisir l'interet"
+    Lire interet
+    Ecrire " Saisir le nombre d'annee"
+    Lire nombre d'annee
+    interet simple <--somme*(1+nombre d'annee*(interet/100))
+    interet composer <--somme*(1+interet/100)^nombre d'annee
+    Ecrire "valeur acquise avec interet simple", interetSimple
+    Ecrire "valeur acquise avec interet composer", interetComposer
+FIN Programme

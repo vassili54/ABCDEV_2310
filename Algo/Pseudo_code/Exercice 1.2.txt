@@ -1,26 +1,29 @@
 Variables
-    rayon, aire, volume: Réel
-    
+    rayonR est un entier
+    aireSphère est reel
+    volumeSphères est reel
+CONSTANTE
+    pi est reel      
 Debut du programme
-   // Saisie du rayon
-   Ecrire "Veuillez saisir le rayon de la sphère : "
-   Lire rayon
+    // Saisie du rayon
+    Ecrire "Veuillez saisir le rayon de la sphère : "
+    Lire rayon
 
-   // Calcul de l'aire
-   aire <- 4 * π * rayon^2
+    // Calcul de l'aire
+    aire <- 4 * π * R^2
 
-   // Affichage de l'aire
-   Ecrire "L'aire de la sphère est : ", aire
+    // Affichage de l'aire
+    Ecrire "L'aire de la sphère est : ", aire
    
-   // Calcul de Volume
-   volume <- 4/3 * π * rayon^3
+    // Calcul de Volume
+    volume <- 4/3 * π * R^3
 
-   // Affichage de volume
-   Ecrire "volume de la sphère est : ", volume
+    // Affichage de volume
+    Ecrire "volume de la sphère est : ", volume
 
 
 
-   // Attente de la saisie pour éviter la fermeture immédiate de la console
-   Ecrire "Appuyez sur une touche pour quitter."
-   Lire
+    // Attente de la saisie pour éviter la fermeture immédiate de la console
+    Ecrire "Appuyez sur une touche pour quitter."
+    Lire
 Fin

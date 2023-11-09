@@ -1,15 +1,17 @@
 Variables
-    rayon
-    angle
-    aireSecteurCirculaire
-
+    rayonR est un entier
+    angleA est un entier
+    aire est un reel
+Constante
+    pi est un reel
 Debut du programme
-    Ecrire "Veuillez saisir le rayon : "
-    Lire rayon
+    Ecrire "Saisir le rayon R : "
+    Lire rayonR
 
-    Ecrire "Veuillez saisir l'angle : "
-    Lire angle
+    Ecrire "Saisir l'angle A: "
+    Lire angleA
 
-    aireSecteurCirculaire <-- (π*rayon^2*angle)/360
+    aire <-- (pi*rayonR^2*angleA)/360
 
-    Ecrire "L'aire du secteur circulaire est : ", aireSecteurCirculaire
+    Ecrire "L'aire du secteur circulaire est : ", aire
+Fin de programme
