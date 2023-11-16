@@ -1,0 +1,18 @@
+VARIABLE
+    a est un entier
+    b est un entier
+    InferieurEgale est une chaine de caractère
+DEBUT DE PROGRAMME    
+    InferieurEgale <--" <="
+    Ecrire "Saisir le nombre a"
+    Lire a
+    Ecrire "Saisir le nombre b"
+    Lire b
+ Debut Si
+ SI a <= b 
+ ALORS
+    Ecrire a, InferieurEgale, b
+Sinon 
+    Ecrire b, InferieurEgale, a
+ Fin Si
+Fin PROGRAMME

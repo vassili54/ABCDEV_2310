@@ -1,6 +1,7 @@
 Variable
     a est un entier
     b est un entier
+    c est un entier
 Debut du programme
     Ecrire "Saisir le nombre a"
     Lire a
@@ -8,8 +9,9 @@ Debut du programme
     Lire b
     Ecrire "Valeur de a:", a
     Ecrire "Valeur de b:", b
-    // Inversion des valeurs
-    Ecrire "Après inversion :"
-    Ecrire "Valeur de a:", b
-    Ecrire "Valeur de b:", a
+    c <-- a
+    a <-- b
+    b <-- c
+    Ecrire "Valeur de a:", a
+    Ecrire "Valeur de b:", b
 FIN Programme

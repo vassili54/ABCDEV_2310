@@ -1,0 +1,21 @@
+VARIABLE
+    nombre1 un nombre entier
+    nombre2 un nombre entier
+Debut Programme
+    Ecrire "Veuillez Saisir un nombre :"
+    Lire nombre1
+    Ecrire "Veuillez Saisir deuxieme nombre :"
+    Lire nombre2
+    
+    Debut Si 
+           Si ( (nombre1*nombre2)>0  )
+           Alors 
+                  Ecrire "le nombre est positif" 
+           Sinon
+           Si ( (nombre1*nombre2)<0  )
+           Alors      
+                  Ecrire "Le nombre est negatif"
+           Sinon
+                  Ecrire "Le nombre est nul"      
+    Fin Si
+Fin programme                  

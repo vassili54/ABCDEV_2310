@@ -1,0 +1,36 @@
+VARIABLE
+  age est un entier
+
+DEBUT DU PROGRAMME
+  Ecrire "Entrez votre âge en années :"
+  Lire age
+  
+  Debut Si
+    Si age < 0
+    Alors
+      Ecrire "Vous n'êtes pas encore né"
+    Sinon 
+    Si (age>=0 et age<18)
+      Ecrire "Vous êtes mineur"
+    Sinon
+      Ecrire "Vous êtes majeur"
+  Fin Si
+
+FIN DU PROGRAMME
+
+OU
+
+Debut du programme
+	Ecrire "Quel est votre age ?"
+	Lire age
+	Debut Si
+		Si age >= 18
+		Alors
+			Ecrire "Vous êtes majeur"
+		Sinon Si age < 0 
+			Alors
+			Ecrire "Vous n'êtes pas encore né"
+		Sinon
+			Ecrire "Vous êtes mineur"
+	Fin Si
+Fin du programme

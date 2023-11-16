@@ -1,0 +1,36 @@
+VARIABLE
+    a est un reel
+    b est un reel
+    c est un reel
+Debut du programme
+    Ecrire "Saisir le nombre a"
+    Lire a
+    Ecrire "Saisir le nombre b"
+    Lire b
+    Ecrire "Saisir le nombre c"
+    Lire c
+    Debut Si 
+            Si a<=b ET <=c Alors
+                  Debut Si
+                          Si b<=c Alors 
+                                  Ecrire a <= b <= c
+                                  Sinon
+                                  Ecrire a <= c <= b
+                  Fin Si
+            Sinon Si b <= a ET b <= c Alors
+                  Debut Si
+                          Si a <= c Alors
+                                  Ecrire b <= a <= c
+                                  Sinon
+                                  Ecrire b <= c <= Alors
+                  Fin Si
+            Sinon
+                  Debut Si
+                          Si a<= b Alors
+                          Ecrire c <= a <= b
+                          Sinon c <= b <= a 
+                  Sin Si
+           Fin Si 
+Fin programme                                               
+
+    
