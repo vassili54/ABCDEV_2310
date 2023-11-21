@@ -1,0 +1,30 @@
+VARIABLES
+    heures est un entier
+    minutes est un entier
+    Secondes est un entier
+Debut Programme
+    Ecrire "Saisir les heures"
+    Lire heures
+    Ecrire "Saisir les minutes"
+    Lire minutes
+    Ecrire "Saisir les secondes"
+    Lire secondes
+    secondes <-- secondes + 1
+Debut Si 
+     Si secondes = 60
+     Alors
+     secondes <-- 0
+     heures <-- heures + 1
+Fin Si     
+Debut Si
+	Si minutes = 60
+	Alors
+	minutes <-- 0
+Fin Si 
+Debut Si 
+        Si heures = 24
+        Alors
+        heures <-- O
+Fin Si 
+    Ecrire "Dans une seconde il sera ",heures,"heure(s) ",minutes,"minute(s)",secondes,"seconde(s) "  
+ Fin du programme
