@@ -1,0 +1,25 @@
+Variables
+    N est un entier
+    i est un entier
+    compteur est un entier
+
+Debut Programme
+    Ecrire "Saisir un nombre entier: "
+    Lire N
+    compteur <-- 0
+
+Debut boucle Pour
+	Pour i allant de 2 a N-1 
+    Debut Si
+          Si N / i = 0
+          Alors
+          Ecrire N, "est divisible par : ",i
+          compteur + 1
+    Fin si 
+Fin Pour     
+        Ecrire "Le nombre ", N, a, compteur, diviseur
+        
+
+
+// Lire un nombre N et déterminer s’il est un nombre premier.
+// Un nombre premier n'est divisible que par 1 et par lui-même. 

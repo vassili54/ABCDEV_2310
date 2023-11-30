@@ -1,0 +1,28 @@
+Variables
+    nb est un entier
+    prix est un entier
+
+Debut Programme
+Ecrire "Saisir le nombre de photocopies : "
+lire nb
+
+
+Debut Si
+      Si nb <=10 
+      alors
+      prix <-- nb * 0.1 
+      Sinon
+      Si nb <= 30
+      Alors 
+      prix <-- 10 * 0.1 + (nb - 10) * 0.09
+      Sinon 
+      prix <-- 10 * 0.1 + 20 * 0.09 + (nb - 30) * 0.08
+
+      Ecrire "Le prix total est : ", prix, €
+      // afficher symbole (€) "\u20AC"
+
+
+
+//coutPremieresDix ← 0.10
+//coutDixSuivantes ← 0.09
+//coutAuDelaDeVingt ← 0.08

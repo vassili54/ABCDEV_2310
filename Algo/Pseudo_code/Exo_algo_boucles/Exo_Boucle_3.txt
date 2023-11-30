@@ -1,0 +1,49 @@
+//Boucle Tant Que //
+//VARIABLE//
+
+nombreDepart est entier
+i est un entier
+
+Debut Programme
+
+// Demander à l'utilisateur d'entrer un nombre de départ
+    Ecrire "Entrer un nombre de depart : "
+    Lire nombreDepart
+    i <-- 1
+Debut Tant Que
+    Tant que i <= 10 Faire
+    nombreDepart + i
+    i <-- i + 1
+Fin de Tant Que
+
+Fin Programme
+
+//Boucle Pour//
+//VARIABLE//
+
+nombreDepart est entier
+i est un entier
+
+// Demander à l'utilisateur d'entrer un nombre de départ
+    Ecrire "Entrer un nombre de depart : "
+    Lire nombreDepart
+
+Debut Pour
+    Pour i de 1 à 10 faire
+    nombreDepart + i 
+Fin Pour
+
+Fin Programme
+
+
+
+
+
+/*
+Ecrire un algorithme qui demande un nombre de départ, 
+et qui ensuite affiche les dix nombres suivants.
+Par exemple, si l'utilisateur entre le nombre 17, 
+le programme affichera les nombres de 18 à 27.
+Ecrire cet algorithme dans un premier temps avec 
+une boucle tant que, puis avec une boucle pour. 
+*/

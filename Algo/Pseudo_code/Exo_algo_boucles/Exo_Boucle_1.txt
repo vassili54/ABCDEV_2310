@@ -1,0 +1,27 @@
+/* VARIABLES */
+
+nombreUtilisateur       ENTIER
+
+
+/* DEBUT PROGRAMME */
+
+Ecrire "Saisir un nombre compris entre 1 et 3 : "
+Lire nombreUtilisateur
+
+Debut Tant que
+      Tant Que nombreUtilisateur < 1 OU nombreUtilisateur > 3
+      Faire
+          Ecrie "Saisir un nombre compris entre 1 et 3"
+          Lire nombreUtilisateur
+          Fin Tant que
+
+
+/* FIN PROGRAMME */
+
+
+
+
+
+
+Ecrire un algorithme qui demande à l’utilisateur un nombre compris entre 1 et 3 jusqu’à ce que la réponse
+convienne.

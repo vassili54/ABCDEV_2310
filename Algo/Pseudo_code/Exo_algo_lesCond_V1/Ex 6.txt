@@ -1,0 +1,31 @@
+Variables
+    age est un entier
+    genre est du texte ou une chaine de caracteres
+    condition1 est booleen
+    condition2 est booleen
+
+Debut programme
+    Ecrire "Saisir le genre (M/F) : "
+    Lire genre
+    Ecrire "Saisir l'age : "
+    Lire age
+    condition1 <-- genre "M" ET age > 20
+    condition2 <-- genre "F" ET (age >18 ET age <35)
+Debut Si
+      Si condition1 = vrai OU condition2 = vrai
+      Alors Ecrire "Imposable"
+      Sinon Ecrire "Non Imposable"    
+Fin Si
+Fin programme
+
+
+
+Les habitants de Zorglub paient l’impôt selon les règles suivantes :
+•
+les hommes de plus de 20 ans paient l’impôt
+•
+les femmes paient l’impôt si elles ont entre 18 et 35 ans
+•
+les autres ne paient pas d’impôt
+Le programme demandera donc l’âge et le sexe du Zorglubien, et se prononcera donc ensuite sur le fait
+que l’habitant est imposable.
