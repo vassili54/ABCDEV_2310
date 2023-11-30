@@ -1,8 +1,0 @@
-/**
- * 
- */
-/**
- * 
- */
-module mon1erprojet {
-}
