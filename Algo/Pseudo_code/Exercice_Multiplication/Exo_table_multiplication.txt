@@ -1,0 +1,46 @@
+Part 1 
+Pour cet exercice vous devez écrire un algorithme qui demande un nombre entier de 1 à 10, 
+puis affiche la table de multiplication correspondante de 0 à 10.
+Part 2 
+Après l'affichage on delandera à l'utilisateur s'il souhaite afficher une autre table, 
+s'il répond oui on lui redemande un nombre, sinon on ferme le programme.
+
+
+Part 1
+
+//Variables
+   nombre est un entier
+   somme est un entier
+   i est un entier
+
+//Debut de programme
+  Ecrire "Saisir un nombre de 1 à 10"
+  Lire nombre
+  Ecrire "Table de multiplication de ", nombre, " de 0 à 10 :"
+Debut Pour
+    pour chaque i de 0 à 10, faire
+    somme <-- nombre * i
+Fin pour
+    Ecrire i, "*", nombre, "=", somme
+Fin programme
+
+
+
+Part 2
+
+//Variables
+  reponse est un entier
+
+//Debut de programme
+  Ecrire "Voulez-vous afficher une autre table de multiplication? (oui/non) : "
+  lire reponse
+    Debut Si
+          Si reponse = "oui"
+          alors retour "Part 1"
+          Sinon Ecrire "Programme termine"
+    Fin si      
+Fin programme
+
+
+
+

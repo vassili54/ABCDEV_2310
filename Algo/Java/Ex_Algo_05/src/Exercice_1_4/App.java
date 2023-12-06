@@ -48,9 +48,10 @@ public class App {
 		        nombreAnnee = sc.nextInt();
 		        
 		        interetSimple = somme * (1 + nombreAnnee * interet / 100);
-		        interetComposer = somme * Math.pow(1 + interet/100) ^ nombreAnnee;
-		        System.out.println("valeur acquise avec interet simple est ", interetSimple);
-		        System.out.println("valeur acquise avec interet composer est ", interetComposer);
+		        interetComposer = somme * Math.pow(1 + interet/100, nombreAnnee);
+		        
+		        System.out.println("valeur acquise avec interet simple est "+interetSimple);
+		        System.out.println("valeur acquise avec interet composer est "+interetComposer);
 		        
 		        // Fermeture du scanner
 		        sc.close();		

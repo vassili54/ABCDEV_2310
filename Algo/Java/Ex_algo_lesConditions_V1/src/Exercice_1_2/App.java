@@ -21,8 +21,7 @@ Debut Programme
                   Ecrire "Le nombre est nul"      
     Fin Si
 Fin programme     
-	public static void main(String[] args) {
-
+	
 */
 	public static void main(String[] args) {
 //VARIABLE//
@@ -32,9 +31,19 @@ Fin programme
 		
 //debut Programme//
 		System.out.println("Veuillez Saisir un Nombre : ");
-		nb = sc.nextInt()
+		nb = sc.nextInt();
+		if (nb>0) {
+			System.out.println("Le nombre est positif");
+		}
+		else if (nb<0) {
+			System.out.println("Le nombre est negatif");
+		}
+		else {
+			System.out.println("Le nombre est nul");
+		}
 		
-
+		
+		sc.close();
 	}
 
 }
