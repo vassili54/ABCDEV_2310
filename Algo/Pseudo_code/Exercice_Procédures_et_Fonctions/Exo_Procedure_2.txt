@@ -1,0 +1,20 @@
+
+Enoncé 2: 
+Ecrire et utiliser une procédure calculant le périmètre 
+et l'aire d'un triangle en connaissant les 3 côtés
+Périmètre = p = a + b + c et aire = ((p/2-a)(p/2-b)(p/2-c))1/2
+
+
+PROCEDURE CalculTriangle (VAL entier a, VAL entier b, VAL entier c)
+
+Déclaration des variables
+
+p est un entier
+aire est un entier
+
+p<--a+b+c
+aire<--((p/2-a)*(p/2-b)*(p/2-c))*1/2
+Ecrire "Le Périmètre est : ",p 
+Ecrire "L'aire est : ",aire
+
+FIN PROCEDURE
