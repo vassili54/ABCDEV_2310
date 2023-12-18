@@ -9,8 +9,8 @@ PROCEDURE CalculTriangle (VAL entier a, VAL entier b, VAL entier c)
 
 Déclaration des variables
 
-p est un entier
-aire est un entier
+p est réel
+aire est réel
 
 p<--a+b+c
 aire<--((p/2-a)*(p/2-b)*(p/2-c))*1/2

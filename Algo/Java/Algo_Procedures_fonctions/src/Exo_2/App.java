@@ -11,8 +11,8 @@ Périmètre = p = a + b + c et aire = ((p/2-a)(p/2-b)(p/2-c))1/2
 PROCEDURE CalculTriangle (VAL entier a, VAL entier b, VAL entier c)
 
 Déclaration des variables
-p est un entier
-aire est un entier
+p est réel
+aire est réel
 
 p<--a+b+c
 aire<--((p/2-a)*(p/2-b)*(p/2-c))*1/2
@@ -25,8 +25,8 @@ FIN PROCEDURE
 	public static void CalculTriangle(int a, int b, int c) 
 	{
 		//Variables
-		int p;
-		int aire;
+		double p;
+		double aire;
 		//calcule le Périmètre et l'aire.
 		p = a + b + c;
 		aire = ((p/2-a)*(p/2-b)*(p/2-c))*1/2;
