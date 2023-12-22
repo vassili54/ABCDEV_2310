@@ -1,0 +1,5 @@
+
+Enoncé 5:
+Ecrire et utiliser une fonction qui vérifie 
+la validité d’une date passer en paramètre 
+(exemple la date 30/02/2023 n’est pas une date valide)
