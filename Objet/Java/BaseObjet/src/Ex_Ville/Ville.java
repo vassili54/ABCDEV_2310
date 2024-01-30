@@ -20,7 +20,7 @@ public class Ville {
 		nbInstancesBis++;
 	}
 	
-	public Ville(String _nomVille, String _nomPays, int nbHabitants) 
+	public Ville(String _nomVille, String _nomPays, int _nbHabitants) 
 	{
 		System.out.println("Creation d'une ville avec parametre");
 		nomVille = _nomVille;
@@ -43,7 +43,7 @@ public class Ville {
 	
 	public String getNomPays()
 	{
-		return momPays;
+		return nomPays;
 	}
 	
 	// retourne nombre d'habitant
@@ -61,7 +61,7 @@ public class Ville {
 	
 	// definir le nom de la ville
 	
-	public void setNomVille(String_nomVille)
+	public void setNomVille(String _nomVille)
 	{
 		nomVille = _nomVille;
 	}
@@ -70,7 +70,7 @@ public class Ville {
 	
 	public void setNomPays(String _nomPays)
 	{
-		nomPays = _nomPays
+		nomPays = _nomPays;
 	}
 	
 	// definir le nombre d'habitant
@@ -92,13 +92,13 @@ public class Ville {
 		{
 			i++;
 		}
-		this.categorie = categories[i];
+		this.categorie = categorie[i];
 	}
 	
 	public String decrisToi()
 	{
 		return "\t"+this.nomVille+" est une ville de "
-				   +this.nomPays+" elle comporte"
+				   +this.nomPays+" elle comporte "
 				   +this.nbHabitants+" habitants(s) => elle est donc de categorie "
 				   +this.categorie;
 	}

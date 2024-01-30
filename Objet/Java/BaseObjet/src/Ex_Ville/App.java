@@ -4,8 +4,8 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Ville ville1 = new Ville();
-		Ville ville2 = new Ville("Metz","France," 117000);
+		Ville ville1 = new Ville("Folschviller", "France, ", 4000);
+		Ville ville2 = new Ville("Metz","France", 117000);
 		
 		System.out.println(ville2.decrisToi());
 		
