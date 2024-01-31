@@ -12,19 +12,19 @@ public class Rectangle {
 	// Méthode pour calculer la surface
 	public Double surface()
 	{
-		return longueur * largeur;
+		return (this.longueur * this.largeur);
 	}
 	// Méthode pour calculer le périmètre
 	public Double perimetre()
 	{
-		return 2 * (longueur + largeur);
+		return (this.longueur + this.largeur) * 2;
 	}
 	// Méthode pour afficher les résultats
 	public void afficher() 
 	{
-		System.out.println("Longueur : " + longueur);
-		System.out.println("Largeur : " + largeur);
-		System.out.println("Surface : " + surface());
-		System.out.println("Périmètre : " + perimetre());
+		System.out.println("Longueur : " + this.longueur);
+		System.out.println("Largeur : " + this.largeur);
+		System.out.println("Surface : " + this.surface());
+		System.out.println("Périmètre : " + this.perimetre());
 	}
 }
