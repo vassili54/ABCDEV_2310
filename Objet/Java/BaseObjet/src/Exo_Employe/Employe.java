@@ -9,56 +9,53 @@ public class Employe {
     private int anneeNaissance;
     private int anneeEmbauche;
     private double salaire;
+    private Calendar cal = Calendar.getInstance();
+    private int anneeCourante = cal.get(Calendar.YEAR);
 
     public Employe(String _matricule, String _nom, String _prenom, int _anneeNaissance, int _anneeEmbauche, double _salaire) 
     {
-        matricule = _matricule;
-        nom = _nom;
-        prenom = _prenom;
-        anneeNaissance = _anneeNaissance;
-        anneeEmbauche = _anneeEmbauche;
-        salaire = _salaire;
+        this.matricule = _matricule;
+        this.nom = _nom;
+        this.prenom = _prenom;
+        this.anneeNaissance = _anneeNaissance;
+        this.anneeEmbauche = _anneeEmbauche;
+        this.salaire = _salaire;
     }
 
     public int age() 
     {
-        Calendar cal = Calendar.getInstance();
-        int anneeCourante = cal.get(Calendar.YEAR);
-        return anneeCourante - anneeNaissance;
+        return anneeCourante - this.anneeNaissance;
     }
 
     public int anciennete() 
     {
-        Calendar cal = Calendar.getInstance();
-        int anneeCourante = cal.get(Calendar.YEAR);
-        return anneeCourante - anneeEmbauche;
+        return anneeCourante - this.anneeEmbauche;
     }
 
     public void augmentationDuSalaire() 
     {
-        int anciennete = anciennete();
-        if (anciennete < 5) 
+        if (this.anciennete() < 5) 
         {
-            salaire *= 1.02; // Augmentation de 2%
+            this.salaire = this.salaire + this.salaire * 2 / 100; // Augmentation de 2%
         } 
-        else if (anciennete < 10) 
+        else if (this.anciennete() < 10) 
         {
-            salaire *= 1.05; // Augmentation de 5%
+        	this.salaire = this.salaire + this.salaire * 5 / 100;; // Augmentation de 5%
         } 
         else 
         {
-            salaire *= 1.1; // Augmentation de 10%
+        	this.salaire = this.salaire + this.salaire * 10 / 100;; // Augmentation de 10%
         }
     }
 
     public void afficherEmploye() 
     {
-        System.out.println("Matricule: " + matricule);
-        System.out.println("Nom: " + nom);
-        System.out.println("Prenom: " + prenom);
-        System.out.println("Age: " + age());
-        System.out.println("Anciennete: " + anciennete());
-        System.out.println("Salaire: " + salaire);
+        System.out.println("Matricule: " + this.matricule);
+        System.out.println("Nom: " + this.nom);
+        System.out.println("Prenom: " + this.prenom);
+        System.out.println("Age: " + this.age());
+        System.out.println("Anciennete: " + this.anciennete());
+        System.out.println("Salaire: " + this.salaire);
     }
 
 	
