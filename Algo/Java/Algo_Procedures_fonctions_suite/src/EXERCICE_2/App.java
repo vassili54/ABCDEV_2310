@@ -1,7 +1,13 @@
 package EXERCICE_2;
 
 import java.util.Scanner;
-
+/*
+EXERCICE 2
+Ecrivez une fonction qui retourne le plus grand nombre entier présent dans un tableau
+Exemple :
+int[] tab = {1, 2, 9, 4};
+Sortie prévue : 9
+ */
 public class App {
 
 	public static void main(String[] args) {
