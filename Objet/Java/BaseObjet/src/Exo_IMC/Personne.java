@@ -8,7 +8,7 @@ public class Personne {
     public Personne(double taille, double poids, int age) {
         this.taille = taille;
         this.poids = poids;
-        this.age = age;
+        this.setAge(age);
     }
 
     public double imc() {
@@ -33,4 +33,12 @@ public class Personne {
             return "Obésité morbide - Risque de maladie: Extrêmement élevé";
         }
     }
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
+	}
 }

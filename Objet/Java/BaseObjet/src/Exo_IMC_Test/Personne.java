@@ -3,12 +3,12 @@ package Exo_IMC_Test;
 public class Personne {
 	  private double taille;
 	  private double poids;
-	  //private int age;
+	  private int age;
 
 	  public Personne(double taille, double poids, int age) {
 	    this.taille = taille;
 	    this.poids = poids;
-	    //this.setAge(age);
+	    this.setAge(age);
 	  }
 
 	  public double imc() {
@@ -34,13 +34,13 @@ public class Personne {
 	    }
 
 	    return null; // Ne devrait jamais arriver
-	  //}
+	  }
 
-	//public int getAge() {
-		//return age;
-	//}
+	public int getAge() {
+		return age;
+	}
 
-	//public void setAge(int age) {
-		//this.age = age;
+	public void setAge(int age) {
+		this.age = age;
 	}
 	}
